@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Kaiwa' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'SwiftyCam', :git => 'https://github.com/Awalz/SwiftyCam.git', :branch => 'Swift4'
+  pod 'Alamofire'
+  pod 'TransitionButton'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'AlamofireImage'
+  pod 'CodableFirebase'
+  pod 'SCLAlertView'
+  
+
+
+  # Pods for Kaiwa
+
+  target 'KaiwaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
