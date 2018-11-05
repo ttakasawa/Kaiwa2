@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3541CA751B78BE95482DA6B /* Pods_Kaiwa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCD28795D1063694FC7E2EF /* Pods_Kaiwa.framework */; };
 		B263CFC921696DD9008B68A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B263CFC821696DD9008B68A6 /* AppDelegate.swift */; };
 		B263CFCB21696DD9008B68A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B263CFCA21696DD9008B68A6 /* ViewController.swift */; };
 		B263CFCE21696DDA008B68A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B263CFCC21696DDA008B68A6 /* Main.storyboard */; };
@@ -15,7 +16,7 @@
 		B263CFD621696DE6008B68A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B263CFD421696DE6008B68A6 /* LaunchScreen.storyboard */; };
 		B263CFE121696DE7008B68A6 /* KaiwaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B263CFE021696DE7008B68A6 /* KaiwaTests.swift */; };
 		B263CFEC2169A2CB008B68A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B263CFEB2169A2CB008B68A6 /* GoogleService-Info.plist */; };
-		BEE6BA57134B108309813A03 /* Pods_KaiwaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3805C34B7C564568CB567D /* Pods_KaiwaTests.framework */; };
+		DC1F84586472DC67C6388DA4 /* Pods_KaiwaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23A07C7EA5F22D7EBBD45A4 /* Pods_KaiwaTests.framework */; };
 		FE15F92D2169DD2B00EB8268 /* CameraVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE15F92A2169DD2B00EB8268 /* CameraVideoViewController.swift */; };
 		FE15F92E2169DD2B00EB8268 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE15F92B2169DD2B00EB8268 /* PhotoViewController.swift */; };
 		FE15F92F2169DD2B00EB8268 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE15F92C2169DD2B00EB8268 /* VideoViewController.swift */; };
@@ -39,7 +40,6 @@
 		FEA8EBD5216A48EC00FFD4B6 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FEA8EBD2216A48EC00FFD4B6 /* SF-Pro-Display-Medium.otf */; };
 		FEA8EBD6216A48EC00FFD4B6 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FEA8EBD3216A48EC00FFD4B6 /* SF-Pro-Text-Bold.otf */; };
 		FEA8EBD8216A69AA00FFD4B6 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA8EBD7216A69AA00FFD4B6 /* InputTextField.swift */; };
-		FEA8EBD9216A703900FFD4B6 /* Pods_Kaiwa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2CFD15ED1ACCDEA2D3DAA6 /* Pods_Kaiwa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E5D27E2F47754A99C1343EB /* Pods-Kaiwa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaiwa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kaiwa/Pods-Kaiwa.release.xcconfig"; sourceTree = "<group>"; };
-		3B002B38C444D5A4870D0C52 /* Pods-KaiwaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaiwaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaiwaTests/Pods-KaiwaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9685F81E4BD232FF8EB02E10 /* Pods-Kaiwa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaiwa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kaiwa/Pods-Kaiwa.debug.xcconfig"; sourceTree = "<group>"; };
+		1C4027082B4343E42BE45703 /* Pods-KaiwaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaiwaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaiwaTests/Pods-KaiwaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4100821DA134603761F97394 /* Pods-KaiwaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaiwaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaiwaTests/Pods-KaiwaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7726BCE4CE33620D6E4838A9 /* Pods-Kaiwa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaiwa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kaiwa/Pods-Kaiwa.release.xcconfig"; sourceTree = "<group>"; };
+		AFCD28795D1063694FC7E2EF /* Pods_Kaiwa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kaiwa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B129E984D283476CD1FB27DE /* Pods-Kaiwa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaiwa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kaiwa/Pods-Kaiwa.debug.xcconfig"; sourceTree = "<group>"; };
 		B263CFC521696DD9008B68A6 /* Kaiwa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaiwa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B263CFC821696DD9008B68A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B263CFCA21696DD9008B68A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,8 +70,7 @@
 		B263CFE021696DE7008B68A6 /* KaiwaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiwaTests.swift; sourceTree = "<group>"; };
 		B263CFE221696DE7008B68A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B263CFEB2169A2CB008B68A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C1E2E4BC62A7FE4524E283B2 /* Pods-KaiwaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaiwaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaiwaTests/Pods-KaiwaTests.release.xcconfig"; sourceTree = "<group>"; };
-		FC3805C34B7C564568CB567D /* Pods_KaiwaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaiwaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23A07C7EA5F22D7EBBD45A4 /* Pods_KaiwaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaiwaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE15F92A2169DD2B00EB8268 /* CameraVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVideoViewController.swift; sourceTree = "<group>"; };
 		FE15F92B2169DD2B00EB8268 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		FE15F92C2169DD2B00EB8268 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +94,6 @@
 		FEA8EBD2216A48EC00FFD4B6 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
 		FEA8EBD3216A48EC00FFD4B6 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
 		FEA8EBD7216A69AA00FFD4B6 /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
-		FF2CFD15ED1ACCDEA2D3DAA6 /* Pods_Kaiwa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kaiwa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA8EBD9216A703900FFD4B6 /* Pods_Kaiwa.framework in Frameworks */,
+				A3541CA751B78BE95482DA6B /* Pods_Kaiwa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,41 +109,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE6BA57134B108309813A03 /* Pods_KaiwaTests.framework in Frameworks */,
+				DC1F84586472DC67C6388DA4 /* Pods_KaiwaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		59CE62312C9B7AC538BC7350 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9685F81E4BD232FF8EB02E10 /* Pods-Kaiwa.debug.xcconfig */,
-				2E5D27E2F47754A99C1343EB /* Pods-Kaiwa.release.xcconfig */,
-				3B002B38C444D5A4870D0C52 /* Pods-KaiwaTests.debug.xcconfig */,
-				C1E2E4BC62A7FE4524E283B2 /* Pods-KaiwaTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A5474150B24AFE93C596ECDA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FF2CFD15ED1ACCDEA2D3DAA6 /* Pods_Kaiwa.framework */,
-				FC3805C34B7C564568CB567D /* Pods_KaiwaTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B263CFBC21696DD9008B68A6 = {
 			isa = PBXGroup;
 			children = (
 				B263CFC721696DD9008B68A6 /* Kaiwa */,
 				B263CFDF21696DE6008B68A6 /* KaiwaTests */,
 				B263CFC621696DD9008B68A6 /* Products */,
-				59CE62312C9B7AC538BC7350 /* Pods */,
-				A5474150B24AFE93C596ECDA /* Frameworks */,
+				FFB653D726B983B6F2935184 /* Pods */,
+				D2198BC8F8EBF7C3144C0D46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +164,15 @@
 				B263CFE221696DE7008B68A6 /* Info.plist */,
 			);
 			path = KaiwaTests;
+			sourceTree = "<group>";
+		};
+		D2198BC8F8EBF7C3144C0D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD28795D1063694FC7E2EF /* Pods_Kaiwa.framework */,
+				C23A07C7EA5F22D7EBBD45A4 /* Pods_KaiwaTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FE15F9292169DD2B00EB8268 /* CameraVideo */ = {
@@ -267,6 +256,17 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		FFB653D726B983B6F2935184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B129E984D283476CD1FB27DE /* Pods-Kaiwa.debug.xcconfig */,
+				7726BCE4CE33620D6E4838A9 /* Pods-Kaiwa.release.xcconfig */,
+				1C4027082B4343E42BE45703 /* Pods-KaiwaTests.debug.xcconfig */,
+				4100821DA134603761F97394 /* Pods-KaiwaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,11 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B263CFE521696DE7008B68A6 /* Build configuration list for PBXNativeTarget "Kaiwa" */;
 			buildPhases = (
-				0775CCB1FC21FEE455EB18F9 /* [CP] Check Pods Manifest.lock */,
+				978F15B55F1B81AA0C4E236D /* [CP] Check Pods Manifest.lock */,
 				B263CFC121696DD9008B68A6 /* Sources */,
 				B263CFC221696DD9008B68A6 /* Frameworks */,
 				B263CFC321696DD9008B68A6 /* Resources */,
-				DF82BFE23821DC5D53459289 /* [CP] Embed Pods Frameworks */,
+				B90DDC09C393337090827B0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,7 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B263CFE821696DE7008B68A6 /* Build configuration list for PBXNativeTarget "KaiwaTests" */;
 			buildPhases = (
-				3D66A06DC0C54D8A97AE8E82 /* [CP] Check Pods Manifest.lock */,
+				2746B55DFC277E8E2FF94C65 /* [CP] Check Pods Manifest.lock */,
 				B263CFD821696DE6008B68A6 /* Sources */,
 				B263CFD921696DE6008B68A6 /* Frameworks */,
 				B263CFDA21696DE6008B68A6 /* Resources */,
@@ -371,25 +371,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0775CCB1FC21FEE455EB18F9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Kaiwa-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D66A06DC0C54D8A97AE8E82 /* [CP] Check Pods Manifest.lock */ = {
+		2746B55DFC277E8E2FF94C65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,7 +389,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DF82BFE23821DC5D53459289 /* [CP] Embed Pods Frameworks */ = {
+		978F15B55F1B81AA0C4E236D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kaiwa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90DDC09C393337090827B0B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -632,17 +632,14 @@
 		};
 		B263CFE621696DE7008B68A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9685F81E4BD232FF8EB02E10 /* Pods-Kaiwa.debug.xcconfig */;
+			baseConfigurationReference = B129E984D283476CD1FB27DE /* Pods-Kaiwa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ES7WL3NG8;
 				INFOPLIST_FILE = Kaiwa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kaiwa.translator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -652,17 +649,14 @@
 		};
 		B263CFE721696DE7008B68A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E5D27E2F47754A99C1343EB /* Pods-Kaiwa.release.xcconfig */;
+			baseConfigurationReference = 7726BCE4CE33620D6E4838A9 /* Pods-Kaiwa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ES7WL3NG8;
 				INFOPLIST_FILE = Kaiwa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kaiwa.translator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -672,18 +666,14 @@
 		};
 		B263CFE921696DE7008B68A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B002B38C444D5A4870D0C52 /* Pods-KaiwaTests.debug.xcconfig */;
+			baseConfigurationReference = 1C4027082B4343E42BE45703 /* Pods-KaiwaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ES7WL3NG8;
 				INFOPLIST_FILE = KaiwaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kaiwa.translator.KaiwaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -694,18 +684,14 @@
 		};
 		B263CFEA21696DE7008B68A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1E2E4BC62A7FE4524E283B2 /* Pods-KaiwaTests.release.xcconfig */;
+			baseConfigurationReference = 4100821DA134603761F97394 /* Pods-KaiwaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ES7WL3NG8;
 				INFOPLIST_FILE = KaiwaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kaiwa.translator.KaiwaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

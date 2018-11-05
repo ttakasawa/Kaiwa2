@@ -101,7 +101,7 @@ class CameraVideoViewController: SwiftyCamViewController, SwiftyCamViewControlle
         
         self.navigationController?.isNavigationBarHidden = true
         
-        shouldPrompToAppSettings = true
+        //shouldPrompToAppSettings = true
         cameraDelegate = self
         maximumVideoDuration = 10.0
         shouldUseDeviceOrientation = true
@@ -186,7 +186,7 @@ class CameraVideoViewController: SwiftyCamViewController, SwiftyCamViewControlle
         gradient.locations = [0, 0.1, 0.9, 1]
         baseView.layer.mask = gradient
         
-        toTextLabel.bringSubview(toFront: toTextLabel)
+        toTextLabel.bringSubviewToFront(toTextLabel)
         toTextLabel.textColor = .white
         toTextLabel.numberOfLines = 0
         

@@ -106,7 +106,7 @@ class LoginViewController: UIViewController, Stylables {
         appName.centerXAnchor.constraint(equalTo: baseView.centerXAnchor).isActive = true
         appName.leftAnchor.constraint(equalTo: baseView.leftAnchor, constant: 30).isActive = true
         
-        button.bringSubview(toFront: button)
+        button.bringSubviewToFront(button)
     }
     
     override func viewWillAppear(_ animated: Bool) {

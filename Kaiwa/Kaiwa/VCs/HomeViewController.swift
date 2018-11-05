@@ -201,10 +201,10 @@ class HomeViewController: UIViewController, AVCapturePhotoCaptureDelegate {
     @objc func ChangeFlash(_ sender: UIButton){
         flashOn = !flashOn
         if flashOn {
-            self.Flash.setImage(UIImage(named: "Flash_on"), for: UIControlState.normal)
+            self.Flash.setImage(UIImage(named: "Flash_on"), for: UIControl.State.normal)
         }
         else {
-            self.Flash.setImage(UIImage(named: "Flash_off"), for: UIControlState.normal)
+            self.Flash.setImage(UIImage(named: "Flash_off"), for: UIControl.State.normal)
         }
         self.configureFlash()
     }
@@ -217,11 +217,11 @@ class HomeViewController: UIViewController, AVCapturePhotoCaptureDelegate {
         cameraFacingback = !cameraFacingback
         if cameraFacingback {
             displayBackCamera()
-            self.FlipCamera.setImage(UIImage(named:"Camera flip"), for: UIControlState.normal)
+            self.FlipCamera.setImage(UIImage(named:"Camera flip"), for: UIControl.State.normal)
             
         } else {
             
-            self.FlipCamera.setImage(UIImage(named:"Camera_flip_self"), for: UIControlState.normal)
+            self.FlipCamera.setImage(UIImage(named:"Camera_flip_self"), for: UIControl.State.normal)
             displayFrontCamera()
         }
     }
